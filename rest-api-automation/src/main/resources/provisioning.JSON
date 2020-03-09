@@ -1,0 +1,1231 @@
+{
+	"postInboundEntryPoint": {
+		"attributes": {
+			"name__s": "SalesEP",
+			"description__s": "New automated post API description",
+			"type__i": "0",
+			"_type__s": "virtual-team",
+			"status__i": "1",
+			"channelType__i": "1",
+			"serviceLevelThreshold__i": "60",
+			"maximumActiveCalls__i": "80",
+			"callFlowScriptUrl__s": "http://qa.broadsoft.com",
+			"ivrRequeueUrl__s": "http://qa.broadsoft.com",
+			"overflowUri__s": "655",
+			"vendorId__s": "",
+			"timezone__s": "",
+			"mapGroup__l": "0",
+			"billingGroup__l": "0",
+			"ccOneQueue__i": "1"
+		}
+	},
+	"putInboundEntryPoint": {
+		"id": "idObtainedAfterPostOperation",
+		"attributes": {
+			"overflowUri__s": "955455",
+			"serviceLevelThreshold__i": "90",
+			"maximumActiveCalls__i": "100",
+			"description__s": "Updated automated post API description"
+		}
+	},
+	"softDeleteInboundEntryPoint": {
+		"id" : "idObtainedAfterPostOperation",
+		"attributes": {
+			"status__i": "0"
+		}
+	},
+	"postInboundQueue": {
+		"attributes": {
+			"name__s": "SalesQueue",
+			"description__s": "description of testQueue",
+			"type__i": 1,
+			"checkAgentAvailability__i": 0,
+			"channelType__i": 1,
+			"status__i": 1,
+			"permitMonitoring__i": 1,
+			"permitParking__i": 1,
+			"permitRecording__i": 1,
+			"recordAllCalls__i": 0,
+			"pauseResumeEnabled__i": 1,
+			"recordingPauseDuration__i": 10,
+			"serviceLevelThreshold__i": 100,		
+			"maximumActiveCalls__i": 0,
+			"callFlowScriptUrl__s": "http://localhost:8000/Vodafone_India/",
+			"ivrRequeueUrl__s": "http://localhost:8000/Vodafone_India/",
+			"maxTimeInQueue__l": 100,
+    		"overflowUri__s": "4356",
+    		"acdType__s": "seratel",
+    		"dnTimeout__i": 60,
+    		"ccOneQueue__i": 1,
+ 			"blockAreaCodes__i": 0
+		}
+	},
+	"putInboundQueue": {
+		"id": "idObtainedAfterPostOperation",
+		"attributes": {
+			"overflowUri__s": "955455",
+			"serviceLevelThreshold__i": "90",
+			"maximumActiveCalls__i": "10",
+			"description__s": "Updated automated post API description"
+		}
+	},
+	"softDeleteInboundQueue": {
+		"id" : "idObtainedAfterPostOperation",
+		"attributes": {
+			"status__i": "0"
+		}
+	},
+	"postOutdialEntryPoint": {
+		"attributes": {
+			"name__s": "OutdailEp",		
+			"description__s": "description of outdial ep test",
+			"type__i": 2,
+			"outdialPrimaryDidUrl__s": "http://localhost:8000/Vodafone_India-testOutdialEp-outdial.xml",
+			"outdialBackupDidUrl__s": "http://localhost:8000/Vodafone_India-testOutdialEp-outdial.xml",
+			"channelType__i": 1,
+			"status__i": 1,		
+			"serviceLevelThreshold__i": 120,
+			"maximumActiveCalls__i": 100,
+			"callFlowScriptUrl__s": "http://localhost:8000/Vodafone_India/",
+			"ivrRequeueUrl__s": "http://localhost:8000/Vodafone_India/",						
+    		"overflowUri__s": "5656"
+		}
+	},
+	"putOutdialEntryPoint": {
+		"id": "idObtainedAfterPostOperation",
+		"attributes": {
+			"overflowUri__s": "9553356",
+			"serviceLevelThreshold__i": "60",
+			"maximumActiveCalls__i": "80",
+			"description__s": "Updated automated post API description"
+		}
+	},
+	"softDeleteOutdialEntryPoint": {
+		"id" : "idObtainedAfterPostOperation",
+		"attributes": {
+			"status__i": "0"
+		}
+	},
+	"postOutdialQueue": {
+		"attributes": {
+			"name__s": "OutdailQueue",
+			"description__s": "description of outdial queue test",
+			"type__i": 3,
+			"channelType__i": 1,
+			"status__i": 1,
+			"permitMonitoring__i": 1,
+			"permitParking__i": 1,
+			"permitRecording__i": 1,
+			"recordAllCalls__i": 0,
+			"pauseResumeEnabled__i": 1,
+			"recordingPauseDuration__i": 10,
+			"serviceLevelThreshold__i": 120,
+			"maximumActiveCalls__i": 100,
+			"callFlowScriptUrl__s": "http://localhost:8000/Vodafone_India/",
+			"ivrRequeueUrl__s": "http://localhost:8000/Vodafone_India/",
+			"maxTimeInQueue__l": 120,
+			"overflowUri__s": "5678"
+		}
+	},
+	"putOutdialQueue": {
+		"id": "idObtainedAfterPostOperation",
+		"attributes": {
+			"overflowUri__s": "955345434",
+			"serviceLevelThreshold__i": "60",
+			"maximumActiveCalls__i": "80",
+			"description__s": "Updated automated post API description"
+		}
+	},
+	"softDeleteOutdialQueue": {
+		"id" : "idObtainedAfterPostOperation",
+		"attributes": {
+			"status__i": "0"
+		}
+	},
+	"postSite": {
+		"attributes": {
+			"multimediaProfileId__s": "AWuJew92lFB-J3ZeZal2",
+			"name__s": "MiniForestSite",
+			"status__i": 1,
+			"_type__s": "site",
+			"longitude__d": 0.0,
+			"latitude__d": 0.0,
+			"areaCodesToBlock__s": "",
+			"blockAreaCodes__i": 0
+		}
+	},
+	"putSite": {
+		"id": "idObtainedAfterPostOperation",
+		"attributes": {
+			"longitude__d": 20.0,
+			"latitude__d": 25.0,
+			"areaCodesToBlock__s": "205",
+			"blockAreaCodes__i": 1
+		}
+	},
+	"softDeleteSite": {
+		"id" : "idObtainedAfterPostOperation",
+		"attributes": {
+			"status__i": "0"
+		}
+	},
+	"postTeam": {
+        "type": "team",
+        "attributes": {
+            "priority__i": 3,
+            "multimediaProfileId__s": "",
+            "siteId__s": "AWuJew-FywugQABbMbk7",
+            "capacity__l": 0,
+            "name__s": "Cisco-Pro_Site",
+            "teamType__i": 1,
+            "teamDn__s": "0",
+            "teamStatus__s": "In Service",
+            "status__i": 1,
+            "skillProfileId__s": null
+       			 }   
+		},
+	"putTeam": {
+		"id": "idObtainedAfterPostOperation",
+		"attributes": {
+			"priority__i": 2
+		}
+	},
+	"softDeleteTeam": {
+		"id" : "idObtainedAfterPostOperation",
+		"attributes": {
+			"status__i": "0"
+		}
+	},
+	"postUser": {
+		"type": "user",
+		"attributes": {
+			"lastName__s": "blake",
+			"historicalReportsEnabled__i": 1,
+			"multimediaProfileId__s": "0",
+			"mobile__s": "",
+			"externalId__s": "",
+			"work__s": "",
+			"status__i": 1,
+			"city__s": "",
+			"invalidAttempts__i": 0,
+			"login__s": "ciscoUser",
+			"profileId__s": "AV4s1_2DHAt-bK94CcpY",
+			"street__s": "",
+			"postalCode__s": "",
+			"agentProfileId__s": "",
+			"locked__i": 0,
+			"country__s": "",
+			"siteId__s": "0",
+			"email__s": "ciscoUser",
+			"state__s": "",
+			"extMultimediaProfileId__s": "0",
+			"firstName__s": "tom",
+			"password__s": "welcome1",
+			"defaultDn__s": "",
+			"changePassword__i": 1,
+			"callCenterEnabled__i": 0,
+			"teamIds__sa": [],
+			"skillProfileId__s": "0"
+		},
+		"login": "ciscoUser",
+		"emailAddress": "ciscoUser",
+		"password": "welcome1"
+	},
+	"putUser": {
+		"id": "idObtainedAfterPostOperation",
+		"type": "user",
+		"attributes": {
+			"lastName__s": "louis",
+			"firstName__s": "philippe"
+		}
+	},
+	"softDeleteUser": {
+		"id" : "idObtainedAfterPostOperation",
+		"type": "user",
+		"attributes": {
+			"status__i": "0"
+		}
+	},
+	"postAgent": {
+		"type": "user",
+		"attributes": {
+			"lastName__s": "blake",
+			"historicalReportsEnabled__i": 1,
+			"multimediaProfileId__s": "0",
+			"mobile__s": "",
+			"externalId__s": "",
+			"work__s": "",
+			"status__i": 1,
+			"city__s": "",
+			"invalidAttempts__i": 0,
+			"login__s": "ciscoUser",
+			"profileId__s": "AV4s1_2DHAt-bK94CcpY",
+			"street__s": "",
+			"postalCode__s": "",
+			"agentProfileId__s": "AV5MZ5nVXI3EMNlP7pub",
+			"locked__i": 0,
+			"country__s": "",
+			"siteId__s": "AWkJpvdeA7316vGBDDj5",
+			"email__s": "ciscoUser",
+			"state__s": "",
+			"extMultimediaProfileId__s": "0",
+			"firstName__s": "tom",
+			"password__s": "welcome1",
+			"defaultDn__s": "",
+			"changePassword__i": 1,
+			"callCenterEnabled__i": 1,
+			"teamIds__sa": [
+				"AWkJqHygA7316vGBDDj6"
+			],
+			"skillProfileId__s": "0"
+		},
+		"login": "ciscoUser",
+		"emailAddress": "ciscoUser",
+		"password": "welcome1"
+	},
+	"putAgent": {
+		"id": "idObtainedAfterPostOperation",
+		"type": "user",
+		"attributes": {
+			"lastName__s": "louis",
+			"firstName__s": "philippe",
+			"agentProfileId__s": "AWC79_UpXI3EMNlP76_0",
+			"teamIds__sa": [
+				"AWkLIvmCA7316vGBDDpd"
+			]
+		}
+	},
+	"softDeleteAgent": {
+		"id" : "idObtainedAfterPostOperation",
+		"type": "user",
+		"attributes": {
+			"status__i": "0"
+		}
+	},
+	"postThresholdRule": {
+		"attributes": {
+			"triggerValue__d": 10.0,
+			"operand__s": "<=",
+			"triggerInterval__i": 120,
+			"notificationReceivers__sa": [
+				"arkjayar@cisco.com"
+			],
+			"name__s": "qConnectedName",
+			"status__i": 1,
+			"_type__s": "threshold-rule",
+			"textNotificationReceivers__sa": [
+				"arkjayar@cisco.com"
+			],
+			"entityId__s": "AWuJew9QlFB-J3ZeZal0",
+			"alertsAcdSeatmap__i": 0,
+			"agentViewable__i": 1,
+			"thresholdMetricId__i": 6,
+			"entityType__l": 1,
+			"description__s": "TestOneDemo3"
+		}
+	},
+	"putThresholdRule": {
+		"id": "idObtainedAfterPostOperation",
+		"attributes": {
+			"triggerValue__d": 20.0,
+			"triggerInterval__i": 130,
+			"description__s": "updated description Test"
+		}
+	},
+	"softDeleteThresholdRule": {
+		"id" : "idObtainedAfterPostOperation",
+		"attributes": {
+			"status__i": "0"
+		}
+	},
+	"postIdleCode": {
+		"attributes": {
+    		"name__s": "Snacks",
+    		"isDefault__i": 0,
+    		"status__i": 1,
+    		"workTypeId__s": "AWuSsTaHpyhRlaK1zaHF",
+    		"description__s": "Idle code description",
+    		"type__s": "idle"
+		}
+	},
+	"putIdleCode" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes": {
+			"workTypeId__s": "AWuSsTaHpyhRlaK1zaHF",
+    		"description__s": "updated idle code description"
+		}
+	},
+	"softDeleteIdleCode": {
+		"id" : "idObtainedAfterPostOperation",
+		"attributes": {
+			"status__i": "0"
+		}
+	},
+	"postWrapupCode": {
+		"attributes": {
+    		"name__s": "Resolved",
+    		"isDefault__i": 0,
+    		"status__i": 1,
+    		"workTypeId__s": "AWuSsTaHpyhRlaK1zaHF",
+    		"description__s": "wrapup code description",
+    		"type__s": "wrapUp"
+		}
+	},
+	"putWrapupCode": {
+		"id": "idObtainedAfterPostOperation",
+		"attributes": {
+			"workTypeId__s": "AWuSsTaHpyhRlaK1zaHF",
+    		"description__s": "wrapup code description"
+		}
+	},
+	"softDeleteWrapupCode": {
+		"id" : "idObtainedAfterPostOperation",
+		"attributes": {
+			"status__i": "0"
+		}
+	},
+	"postIdleCodeWorkType": {
+		"attributes": {
+    		"name__s": "ApiAutoIdleWt",
+    		"auxCodeType__i": 1,
+    		"description__s": "Description of idle code worktype",
+    		"status__i": 1
+		}
+	},
+	"putIdleCodeWorkType": {
+		"id": "idObtainedAfterPostOperation",
+		"attributes": {
+			"description__s": "Updated description of idle code worktype"
+		}
+	},
+	"softDeleteIdleCodeWorkType": {
+		"id" : "idObtainedAfterPostOperation",
+		"attributes": {
+			"status__i": "0"
+		}
+	},
+	"postWrapupCodeWorkType": {
+		"attributes": {
+			"name__s": "ApiAutoWrapupWt",
+			"auxCodeType__i": 2,
+   			"description__s": "Description of wrapupcode worktype",
+    		"status__i": 1
+		}
+	},
+	"putWrapupCodeWorkType": {
+		"id": "idObtainedAfterPostOperation",
+		"attributes": {
+			"description__s": "Updated description of wrapupcode worktype"
+		}
+	},
+	"softDeleteWrapupCodeWorkType": {
+		"id" : "idObtainedAfterPostOperation",
+		"attributes": {
+			"status__i": "0"
+		}
+	},
+	"postTenantLevelAddressBook" : {
+		"attributes" : {
+			"parentType__i": 1,
+       		"name__s": "customerAddressBook",
+        	"parentId__s": "AWuSrZtj_SsYS6KxbrMD",
+        	"description__s": "address book description",
+        	"status__i": 1,
+        	"_type__s": "speed-dial-list"
+		
+		}
+	},
+	"postTenantLevelAddressBookListEntry" : {
+		"attributes" : {
+			"listId__s": "idObtainedAfterPostOperationOfAddressBook",
+        	"name__s": "Mike",
+        	"status__i": 1,
+        	"_type__s": "speed-dial-list-entry",
+        	"number__s": "9844999954"
+		}
+	},
+	"putTenantLevelAddressBook" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"parentId__s": "AWkt1qL9mbApJMCXqADW",
+			"description__s": "updated address book description"
+		}
+	},
+	"putTenantLevelAddressBookListEntry": {
+		"id" : "idObtainedAfterPostOperation",
+		"attributes" : {
+			"number__s": "9844999951"
+		}
+	},
+	"postSiteLevelAddressBook" : {
+		"attributes" : {
+			"parentType__i": 2,
+       		"name__s": "siteEnggAddressBook",
+        	"parentId__s": "AWkJpvdeA7316vGBDDj5",
+        	"description__s": "address book description",
+        	"status__i": 1,
+        	"_type__s": "speed-dial-list"
+		}
+	},
+	"postSiteLevelAddressBookListEntry" : {
+		"attributes" : {
+			"listId__s": "idObtainedAfterPostOperationOfAddressBook",
+        	"name__s": "Ross",
+        	"status__i": 1,
+        	"_type__s": "speed-dial-list-entry",
+        	"number__s": "5156789655"
+        }
+	},
+	
+	"putSiteLevelAddressBook" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"parentId__s": "AWkt3XRSA7316vGBDFM5",
+			"description__s": "updated address book description"
+		}
+	},
+	"putSiteLevelAddressBookListEntry":{
+		"id" : "idObtainedAfterPostOperation",
+		"attributes" : {
+			"number__s": "5566687667"
+		}
+	},
+	"postOutdialAni" : {
+		"attributes" : {
+			"name__s": "TechSupportNumbers",
+        	"description__s": "outdial ani description",
+        	"status__i": 1,
+        	"_type__s": "outdial-ani-list"
+		}
+	},
+	"postOutdialAniListEntry" : {
+		"attributes" : {
+			"listId__s": "idObtainedAfterPostOperationOfOutdialAni",
+        	"name__s": "Harvey",
+        	"status__i": 1,
+        	"_type__s": "outdial-ani-list-entry",
+        	"number__s": "5867894567"
+		}
+	},
+	"putOutdialAni" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "Updated outdial ani description"
+		}
+	},
+	"putOutdialAniListEntry" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"number__s": "8983908865"
+		}
+	},
+	"postAgentEditableCadVariable" : {
+		"attributes" : {
+			"name__s": "AccountNo",
+        	"description__s": "Agent editable call associated data",
+        	"status__i": 1,
+        	"_type__s": "cad-variable",
+        	"agentEditable__i": 1
+		}
+	},
+	"putAgentEditableCadVariable" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "Updating it to agent non-editable call associated data",
+			"status__i": 0,
+			"agentEditable__i": 0
+		}
+	},
+	"postNonEditableCadVariable" : {
+		"attributes" : {
+			"name__s": "CreditCardNo",
+        	"description__s": "Call associated data that cannot be edited by agent",
+        	"status__i": 1,
+        	"_type__s": "cad-variable",
+        	"agentEditable__i": 0
+		}
+	},
+	"putNonEditableCadVariable" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "Updating call associated data that can be edited by agent",
+			"status__i": 0,
+			"agentEditable__i": 1
+		}
+	},
+	"postDirectVariableBusinessMetric" : {
+		"attributes" : {
+			"type__i": 0,
+        	"name__s": "DirectToInverse",
+        	"status__i": 1,
+        	"_type__s": "business-metric"
+		}
+	},
+	"putDirectVariableBusinessMetric" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"type__i": 1
+		}
+	},
+	"softDeleteDirectVariableBusinessMetric" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postInverseVariableBusinessMetric" : {
+		"attributes" : {
+			"type__i": 1,
+        	"name__s": "InverseToDirect",
+        	"status__i": 1,
+        	"_type__s": "business-metric"
+		}
+	},
+	"putInverseVariableBusinessMetric" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"type__i": 0
+		}
+	},
+	"softDeleteInverseVariableBusinessMetric" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postDialPlan" : {
+		"attributes" : {
+			"regExp__s": "([0-9a-zA-Z]+[-._])*[0-9a-zA-Z]+",
+        	"strippedChars__s": "()-",
+        	"prefix__s": "1",
+        	"name__s": "Any",
+        	"status__i": 1,
+        	"_type__s": "adhoc-dial-properties"
+		}
+	},
+	"putDialPlan" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"regExp__s": "([0-9a-zA-Z]+[-._])",
+			"prefix__s": "91"
+		}
+	},
+	"postTenantLevelTfn" : {
+		"attributes" : {
+			"tfnFlag__i": 0,
+        	"tfn__s": "88453367",
+        	"siteId__s": "",
+        	"status__i": 1,
+        	"_type__s": "tfn",
+        	"virtualTeamId__s": "AWuJew8OlFB-J3ZeZalz"
+        }
+	},
+	"putTenantLevelTfn" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"tfn__s": "8845336788",
+			"virtualTeamId__s": "AWuJew8OlFB-J3ZeZalz"
+		}
+	},
+	"postSiteLevelTfn" : {
+		"attributes" : {
+			"tfnFlag__i": 1,
+        	"tfn__s": "44323455",
+        	"siteId__s": "AWuSoesV_SsYS6KxbrCK",
+        	"status__i": 1,
+        	"_type__s": "tfn",
+        	"virtualTeamId__s": "AWuJew8OlFB-J3ZeZalz"
+		}
+	},
+	"putSiteLevelTfn" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"tfn__s": "4432345523",
+			"virtualTeamId__s": "AWuJew8OlFB-J3ZeZalz"
+		}
+	},
+	"postBillingTypeEpQueueGroup" : {
+		"attributes" : {
+        	"type__i": 0,
+        	"name__s": "BillingEp",
+        	"status__i": 1,
+        	"_type__s": "ep-queue-group"
+		}
+	},
+	"putBillingTypeEpQueueGroup" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"name__s": "BillingQueue"
+		}
+	},
+	"softDeleteBillingTypeEpQueueGroup" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postMappingTypeEpQueueGroup" : {
+		"attributes" : {
+			"type__i": 1,
+        	"name__s": "MapEp",
+        	"status__i": 1,
+        	"_type__s": "ep-queue-group"
+		}
+	},
+	"putMappingTypeEpQueueGroup" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"name__s": "MapQueue"
+		}
+	},
+	"softDeleteMappingTypeEpQueueGroup" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postOpenBlendMultimediaProfile" : {
+		"attributes" : {
+			"_type__s": "media-profile",
+			"name__s": "OpenBlendProf",
+			"description__s": "Handle emails simultaneously along with call or chat",
+			"status__i": 1,
+			"isDefault__i": 0,
+			"blendingMode__i": 1,
+			"numberOfVoiceCalls__l": 1,
+			"numberOfEmails__l": 1,
+			"numberOfChats__l": 1,
+			"numberOfFaxes__l": 0,
+        	"numberOfOther__l": 0,
+        	"numberOfVideoCalls__l": 0
+		}
+	},
+	"putOpenBlendMultimediaProfile" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"numberOfEmails__l": 2,
+			"numberOfChats__l": 2,
+			"numberOfVideoCalls__l": 1
+		}
+	},
+	"softDeleteOpenBlendMultimediaProfile" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postRealtimeBlendMultimediaProfile" : {
+		"attributes" : {
+			"_type__s": "media-profile",
+			"name__s": "RealtimeBlendProf",
+			"description__s": "Handle one single contact at a time",
+			"status__i": 1,
+			"isDefault__i": 0,
+			"blendingMode__i": 2,
+			"numberOfVoiceCalls__l": 1,
+			"numberOfEmails__l": 1,
+			"numberOfChats__l": 1,
+			"numberOfFaxes__l": 0,
+        	"numberOfOther__l": 0,
+        	"numberOfVideoCalls__l": 0
+		}
+	},
+	"putRealtimeBlendMultimediaProfile" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"numberOfEmails__l": 2,
+			"numberOfChats__l": 2,
+			"numberOfVideoCalls__l": 1
+		}
+	},
+	"softDeleteRealtimeBlendMultimediaProfile" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postEmailMultimediaEnabler" : {
+		"attributes" : {
+		  	"name__s": "EmailEnabler",
+        	"description__s": "",
+        	"channelType__i": 0,
+        	"status__i": 1,
+        	"_type__s": "third-party-vendor",
+        	"agentUrl__s": "http://ace107.dev.broadcloudcc.com:41060/web-gateway/webresources/user/login",
+        	"provisioningUrl__s": "http://ace107.dev.broadcloudcc.com:41060/web-gateway/webresources/user/login",
+        	"reportUrl__s": "http://ace107.dev.broadcloudcc.com:41060/web-gateway/webresources/user/login",
+        	"agentDisplayLabel__s": "E-AgentMonitor",
+        	"displayLabel__s": "E-Admin",
+        	"reportDisplayLabel__s": "E-Report"
+		}
+	},
+	"putEmailMultimediaEnabler" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"agentUrl__s": "http://ace108.dev.broadcloudcc.com:41060/web-gateway/webresources/user/login",
+        	"provisioningUrl__s": "http://ace108.dev.broadcloudcc.com:41060/web-gateway/webresources/user/login",
+        	"reportUrl__s": "http://ace108.dev.broadcloudcc.com:41060/web-gateway/webresources/user/login"
+		}
+	},
+	"softDeleteEmailMultimediaEnabler" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postChatMultimediaEnabler" : {
+		"attributes" : {
+			"name__s": "ChatEnabler",
+        	"description__s": "",
+        	"channelType__i": 1,
+        	"status__i": 1,
+        	"_type__s": "third-party-vendor",
+        	"agentUrl__s": "http://ace107.dev.broadcloudcc.com:41060/web-gateway/webresources/user/login",
+        	"provisioningUrl__s": "http://ace107.dev.broadcloudcc.com:41060/web-gateway/webresources/user/login",
+        	"reportUrl__s": "http://ace107.dev.broadcloudcc.com:41060/web-gateway/webresources/user/login",
+        	"agentDisplayLabel__s": "C-AgentMonitor",
+        	"displayLabel__s": "C-Admin",
+        	"reportDisplayLabel__s": "C-Report"
+		}
+	},
+	"putChatMultimediaEnabler" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"agentUrl__s": "http://ace106.dev.broadcloudcc.com:41060/web-gateway/webresources/user/login",
+        	"provisioningUrl__s": "http://ace106.dev.broadcloudcc.com:41060/web-gateway/webresources/user/login",
+        	"reportUrl__s": "http://ace106.dev.broadcloudcc.com:41060/web-gateway/webresources/user/login"
+		}
+	},
+	"softDeleteChatMultimediaEnabler" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postMultimediaExtensionForOpenBlend" : {
+		"attributes" : {
+			"casEnabled__i": 0,
+        	"mmProfileId__s": "AWlWzJxsA7316vGBDHPa",
+        	"name__s": "openBlendExtension",
+        	"description__s": "Extension for open blend profile with telephony,email and chat enablers",
+        	"status__i": 1,
+        	"_type__s": "third-party-profile"
+		}
+	},
+	"postEmailProfile" : {
+		"attributes" : {
+			"vendorId__s": "AWlW0GbZmbApJMCXqBH3",
+        	"thirdPartyProfileId__s": "idObtainedAfterPostOperation",
+        	"status__i": 1,
+        	"_type__s": "email-profile"
+		}
+	},
+	"postChatProfile" : {
+		"attributes" : {
+			"vendorId__s": "AWlW0mWFA7316vGBDHPh",
+        	"thirdPartyProfileId__s": "idObtainedAfterPostOperation",
+        	"status__i": 1,
+        	"_type__s": "chat-profile"
+		}
+	},
+	"putMultimediaExtensionForOpenBlend" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "updated description for extension of open blend profile with telephony,email and chat enablers",
+			"mmProfileId__s": "AWlXLvFUA7316vGBDHQg"
+		}
+	},
+	"putEmailProfile" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"vendorId__s": "AWlW6ulGA7316vGBDHPu"
+		}
+	},
+	"putChatProfile" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"vendorId__s": "AWlW8UlbmbApJMCXqBH5"
+		}
+	},
+	"softDeleteMultimediaExtensionForOpenBlend" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postMultimediaExtensionForRealtimeBlend" : {
+		"attributes" : {
+			"casEnabled__i": 0,
+        	"mmProfileId__s": "AWlWzT3LA7316vGBDHPb",
+        	"name__s": "realtimeBlendExtension",
+        	"description__s": "extension for realtime blend profile with telephony,email and chat enablers",
+        	"status__i": 1,
+        	"_type__s": "third-party-profile"
+		}
+	},
+	"putMultimediaExtensionForRealtimeBlend" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "updated description for the extension of realtime blend profile with telephony,email and chat enablers",
+			"mmProfileId__s": "AWlXMEpRmbApJMCXqBID"
+		}
+	},
+	"softDeleteMultimediaExtensionForRealtimeBlend" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postPasswordPolicy" : {
+		"attributes" : {
+			"_type__s": "password-policy",
+        	"name__s": "agentPolicy",
+        	"description__s": "password policy for the agents",
+        	"status__i": 1,
+        	"isDefault__i": 0,
+        	"length__i": 7,
+        	"numberOfPasswordsRemembered__i": 3,
+        	"maximumInvalidAttempts__i": 3,
+        	"expiryPeriod__i": 6,
+        	"oneUpperCaseLetter__i": 1,
+        	"oneLowerCaseLetter__i": 1,
+        	"oneDigit__i": 1,
+        	"regex__s": ".*"
+		}
+	},
+	"putPasswordPolicy" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"length__i": 9,
+        	"numberOfPasswordsRemembered__i": 5,
+        	"maximumInvalidAttempts__i": 5,
+        	"expiryPeriod__i": 8
+		}
+	},
+	"softDeletePasswordPolicy" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postTextSkill" : {
+		"attributes" : {
+    		"name__s": "textSkill",
+    		"description__s": "description of text type skill",
+    		"serviceLevelThreshold__i": 20,
+    		"type__i": 2,
+    		"status__i": 1
+		}
+	},
+	"putTextSkill" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "updating the description of text type skill",
+    		"serviceLevelThreshold__i": 40
+		}
+	},
+	"softDeleteTextSkill" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postProficiencySkill" : {
+		"attributes" : {
+			"name__s": "proficiencySkill",
+    		"description__s": "description of proficiency type skill",
+    		"serviceLevelThreshold__i": 20,
+    		"type__i": 0,
+    		"status__i": 1
+		}
+	},
+	"putProficiencySkill" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "updating the description of proficiency type skill",
+    		"serviceLevelThreshold__i": 40
+		}
+	},
+	"softDeleteProficiencySkill" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postBooleanSkill" : {
+		"attributes" : {
+			"name__s": "booleanSkill",
+    		"description__s": "description of boolean type skill",
+    		"serviceLevelThreshold__i": 20,
+    		"type__i": 1,
+    		"status__i": 1
+		}
+	},
+	"putBooleanSkill" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "updating the description of boolean type skill",
+    		"serviceLevelThreshold__i": 40
+		}
+	},
+	"softDeleteBooleanSkill" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postEnumSkill" : {
+		"attributes" : {
+			"name__s": "enumSkill",
+    		"description__s": "description of enum type skill",
+    		"serviceLevelThreshold__i": 20,
+    		"type__i": 3,
+    		"status__i": 1
+		}
+	},
+	"postEnumSkillValue" : {
+		"attributes" : {
+			"skillId__s": "idObtainedAfterPostOperation",
+        	"name__s": "Voice-Prepaid",
+        	"description__s": "enum description for Voice-Prepaid",
+        	"status__i": 1,
+        	"_type__s": "skill-enum-value"
+		}
+	},
+	"putEnumSkill" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "updating the description of enum type skill",
+    		"serviceLevelThreshold__i": 40
+		}
+	},
+	"postAnotherEnumSkillValue" : {
+		"attributes" : {
+			"skillId__s": "idObtainedAfterPostOperation",
+        	"name__s": "Email-Prepaid",
+        	"description__s": "enum description for Email-Prepaid",
+        	"status__i": 1,
+        	"_type__s": "skill-enum-value"
+		}
+	},
+	"softDeleteEnumSkill" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postSkillProfile" : {
+		"attributes" : {
+    		"profileData__s": "[{\"id\":\"AWuSpTeVlFB-J3ZeZ5r8\",\"value\":\"1\",\"type\":\"Boolean\"},{\"id\":\"AWuSpVJJlFB-J3ZeZ5r9\",\"value\":\"\",\"enumIds\":[\"AWusyNG5HuzJYvQ65hFT\"],\"type\":\"enum\"},{\"id\":\"AWuSpRynpyhRlaK1zZ8s\",\"value\":2,\"type\":\"Proficiency\"},{\"id\":\"AWuSpP_hlFB-J3ZeZ5r4\",\"value\":\"lan\",\"type\":\"Text\"}]",
+    		"name__s": "skillProf",
+    		"description__s": "description of skill that has skill definitions of type enum,text,proficiency and boolean",
+    		"status__i": 1,
+    		"additionalInfo__s": "{\"addedSkillIds\":[\"AWuSpTeVlFB-J3ZeZ5r8\",\"AWuSpVJJlFB-J3ZeZ5r9\",\"AWuSpRynpyhRlaK1zZ8s\",\"AWuSpP_hlFB-J3ZeZ5r4\"],\"removedSkillIds\":[],\"updatedSkillIds\":[],\"addedEnumInfo\":[{\"skillId\":\"AWmVnKCtVgTI0e2f7fhh\",\"skillEnumValueId\":\"AWusyNG5HuzJYvQ65hFT\",\"skillEnumValue\":\"chat-prepaid\"}],\"removedEnumInfo\":[]}"
+		}
+	},
+	"putSkillProfile" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "updated description of skill that has skill definitions of type enum,text,proficiency and boolean",
+			"profileData__s": "[{\"id\":\"AWuSpTeVlFB-J3ZeZ5r8\",\"value\":\"2\",\"type\":\"Boolean\"},{\"id\":\"AWuSpVJJlFB-J3ZeZ5r9\",\"value\":\"\",\"enumIds\":[\"AWmVozLTUn8o38qfXsA9\"],\"type\":\"enum\"},{\"id\":\"AWuSpRynpyhRlaK1zZ8s\",\"value\":4,\"type\":\"Proficiency\"},{\"id\":\"AWuSpP_hlFB-J3ZeZ5r4\",\"value\":\"wan\",\"type\":\"Text\"}]"
+		}
+	},
+	"postTenantLevelAgentProfile" : {
+		"attributes" : {
+    		"name__s": "AgentProfTenantLevel",
+    		"description__s": "Description of agent profile created at the tenant level",
+    		"parentType__i": 1,
+    		"parentId__s": "25",
+    		"status__i": 1,
+    		"thresholdRuleIds__sa": [],
+    		"profileText__s": "<agent-profile xmlns=\"http://agent.transerainc.com/profile\"><profile-attribute name=\"auto-wrapup\" value=\"false\"/><profile-attribute name=\"auto-wrapup-interval\" value=\"0\"/><profile-attribute name=\"screenPopup\" value=\"false\"/><profile-attribute name=\"isAgentAvailableAfterOutdial\" value=\"false\"/><profile-attribute name=\"allowAutoWrapupExtension\" value=\"false\"/><profile-attribute name=\"allowConsultToQueue\" value=\"false\"/><profile-attribute name=\"allowAgentStats\" value=\"true\"/><profile-attribute name=\"agentPersonalStatsEnabled\" value=\"false\"/><profile-attribute name=\"agentThresholdEnabled\" value=\"false\"/><profile-attribute name=\"agentStatsSignedOnTeam\" value=\"false\"/><profile-attribute name=\"forceDefaultDn\" value=\"false\"/><profile-attribute name=\"adhocDialingEnabled\" value=\"false\"/><profile-attribute name=\"outdialEnabled\" value=\"false\"/><profile-attribute name=\"passwordPolicy\" value=\"0\"/><profile-attribute name=\"outdialVTeam\" value=\"0\"/><profile-attribute name=\"outdialAniList\" value=\"0\"/><profile-attribute name=\"accessToRecordings\" value=\"false\"/><profile-attribute name=\"accessToSeatmap\" value=\"false\"/><profile-attribute name=\"lastAgentRouting\" value=\"false\"/><entity type=\"wrapupCode\" allFlag=\"true\"/><entity type=\"idleCode\" allFlag=\"true\"/><entity type=\"team\" allFlag=\"true\"/><entity type=\"vteam\" allFlag=\"true\"/><entity type=\"agentStatsQueues\" allFlag=\"true\"/><entity type=\"agentStatsTeams\" allFlag=\"true\"/><entity type=\"speedDialList\" allFlag=\"false\"><id>0</id></entity><entity type=\"speedDialPlan\" allFlag=\"false\"/><entity type=\"dnRestrictionPlan\" allFlag=\"false\"/></agent-profile>",
+    		"profileData__s": "{\"autoWrapUp\":false,\"autoWrapUpInterval\":0,\"screenPopup\":false,\"agentAvailableAfterOutdial\":false,\"autoWrapUpExtensionAllowed\":false,\"consultToQueueAllowed\":false,\"agentStatsAllowed\":true,\"agentPersonalStatsEnabled\":false,\"agentThresholdEnabled\":false,\"agentStatsSignedOnTeam\":false,\"forceDefaultDn\":false,\"adhocDialingEnabled\":false,\"outdialEnabled\":false,\"passwordPolicyId\":null,\"outdialVirtualTeamId\":null,\"outdialAniListId\":null,\"accessToRecordings\":false,\"accessToSeatmap\":false,\"lastAgentRouting\":false,\"allWrapUpCodes\":true,\"wrapUpCodeIds\":[],\"allIdleCodes\":true,\"idleCodeIds\":[],\"allTeams\":true,\"teamIds\":[],\"allVirtualTeams\":true,\"virtualTeamIds\":[],\"allAgentStatsQueues\":true,\"agentStatsQueueIds\":[],\"allAgentStatsTeams\":true,\"agentStatsTeamIds\":[],\"allAddressBooks\":false,\"addressBookIds\":null,\"allDialPlans\":false,\"dialPlanIds\":[],\"allDnRestrictionPlans\":false,\"dnRestrictionPlanIds\":[],\"agentThrehsoldIds\":[]}"    		
+		}
+	},
+	"putTenantLevelAgentProfile" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "Updating the description of the agent profile created at the tenant level"
+		}
+	},
+	"softDeleteTenantLevelAgentProfile" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postSiteLevelAgentProfile" : {
+		"attributes" : {
+			"name__s": "AgentProfSiteLevel",
+			"description__s": "description of agent profile created at site level",
+    		"parentType__i": 2,
+    		"parentId__s": "AWuJew-FywugQABbMbk7",
+    		"status__i": 1,
+    		"thresholdRuleIds__sa": [],
+    		"profileText__s": "<agent-profile xmlns=\"http://agent.transerainc.com/profile\"><profile-attribute name=\"auto-wrapup\" value=\"false\"/><profile-attribute name=\"auto-wrapup-interval\" value=\"0\"/><profile-attribute name=\"screenPopup\" value=\"false\"/><profile-attribute name=\"isAgentAvailableAfterOutdial\" value=\"false\"/><profile-attribute name=\"allowAutoWrapupExtension\" value=\"false\"/><profile-attribute name=\"allowConsultToQueue\" value=\"false\"/><profile-attribute name=\"allowAgentStats\" value=\"true\"/><profile-attribute name=\"agentPersonalStatsEnabled\" value=\"false\"/><profile-attribute name=\"agentThresholdEnabled\" value=\"false\"/><profile-attribute name=\"agentStatsSignedOnTeam\" value=\"false\"/><profile-attribute name=\"forceDefaultDn\" value=\"false\"/><profile-attribute name=\"adhocDialingEnabled\" value=\"false\"/><profile-attribute name=\"outdialEnabled\" value=\"false\"/><profile-attribute name=\"passwordPolicy\" value=\"0\"/><profile-attribute name=\"outdialVTeam\" value=\"0\"/><profile-attribute name=\"outdialAniList\" value=\"0\"/><profile-attribute name=\"accessToRecordings\" value=\"false\"/><profile-attribute name=\"accessToSeatmap\" value=\"false\"/><profile-attribute name=\"lastAgentRouting\" value=\"false\"/><entity type=\"wrapupCode\" allFlag=\"true\"/><entity type=\"idleCode\" allFlag=\"true\"/><entity type=\"team\" allFlag=\"true\"/><entity type=\"vteam\" allFlag=\"true\"/><entity type=\"agentStatsQueues\" allFlag=\"true\"/><entity type=\"agentStatsTeams\" allFlag=\"true\"/><entity type=\"speedDialList\" allFlag=\"false\"><id>0</id></entity><entity type=\"speedDialPlan\" allFlag=\"false\"/><entity type=\"dnRestrictionPlan\" allFlag=\"false\"/></agent-profile>",
+    		"profileData__s": "{\"autoWrapUp\":false,\"autoWrapUpInterval\":0,\"screenPopup\":false,\"agentAvailableAfterOutdial\":false,\"autoWrapUpExtensionAllowed\":false,\"consultToQueueAllowed\":false,\"agentStatsAllowed\":true,\"agentPersonalStatsEnabled\":false,\"agentThresholdEnabled\":false,\"agentStatsSignedOnTeam\":false,\"forceDefaultDn\":false,\"adhocDialingEnabled\":false,\"outdialEnabled\":false,\"passwordPolicyId\":null,\"outdialVirtualTeamId\":null,\"outdialAniListId\":null,\"accessToRecordings\":false,\"accessToSeatmap\":false,\"lastAgentRouting\":false,\"allWrapUpCodes\":true,\"wrapUpCodeIds\":[],\"allIdleCodes\":true,\"idleCodeIds\":[],\"allTeams\":true,\"teamIds\":[],\"allVirtualTeams\":true,\"virtualTeamIds\":[],\"allAgentStatsQueues\":true,\"agentStatsQueueIds\":[],\"allAgentStatsTeams\":true,\"agentStatsTeamIds\":[],\"allAddressBooks\":false,\"addressBookIds\":null,\"allDialPlans\":false,\"dialPlanIds\":[],\"allDnRestrictionPlans\":false,\"dnRestrictionPlanIds\":[],\"agentThrehsoldIds\":[]}"
+		}
+	},
+	"putSiteLevelAgentProfile" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "Updating the description of the agent profile created at the site level"
+		}
+	},
+	"softDeleteSiteLevelAgentProfile" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postSpecificPermissionsAgentProfile" : {
+		"attributes" : {
+			"name__s": "AgentProfAllPerm",
+			"description__s": "Description of agent profile with auto wrapup and specific permissions",
+			"parentType__i": 1,
+			"parentId__s": "25",
+    		"status__i": 1,
+			"thresholdRuleIds__sa": [
+     			 "AWuSs4wR_SsYS6KxbrRO"
+   			 ],
+    		"profileText__s": "<agent-profile xmlns=\"http://agent.transerainc.com/profile\"><profile-attribute name=\"auto-wrapup\" value=\"true\"/><profile-attribute name=\"auto-wrapup-interval\" value=\"10000\"/><profile-attribute name=\"screenPopup\" value=\"true\"/><profile-attribute name=\"isAgentAvailableAfterOutdial\" value=\"true\"/><profile-attribute name=\"allowAutoWrapupExtension\" value=\"true\"/><profile-attribute name=\"allowConsultToQueue\" value=\"true\"/><profile-attribute name=\"allowAgentStats\" value=\"true\"/><profile-attribute name=\"agentPersonalStatsEnabled\" value=\"true\"/><profile-attribute name=\"agentThresholdEnabled\" value=\"true\"/><profile-attribute name=\"agentStatsSignedOnTeam\" value=\"true\"/><profile-attribute name=\"forceDefaultDn\" value=\"false\"/><profile-attribute name=\"adhocDialingEnabled\" value=\"true\"/><profile-attribute name=\"outdialEnabled\" value=\"true\"/><profile-attribute name=\"passwordPolicy\" value=\"0\"/><profile-attribute name=\"outdialVTeam\" value=\"AWlsBDDKVgTI0e2f7efO\"/><profile-attribute name=\"outdialAniList\" value=\"AWlsBfCxVgTI0e2f7efP\"/><profile-attribute name=\"accessToRecordings\" value=\"true\"/><profile-attribute name=\"accessToSeatmap\" value=\"false\"/><profile-attribute name=\"lastAgentRouting\" value=\"true\"/><entity type=\"wrapupCode\" allFlag=\"false\"><id>AWlsA0F_VgTI0e2f7efN</id><id>AV4s1_0mHAt-bK94CcpV</id></entity><entity type=\"idleCode\" allFlag=\"false\"><id>AV4s2V-PXI3EMNlP7oIm</id><id>AWlsAttrVgTI0e2f7efM</id><id>AV4s2V-hXI3EMNlP7oIn</id><id>AV4s2V_tXI3EMNlP7oIp</id><id>AV4s1_1vHAt-bK94CcpX</id><id>AV4s2V_aXI3EMNlP7oIo</id><id>AV4s1_1FHAt-bK94CcpW</id></entity><entity type=\"team\" allFlag=\"false\"><id>AWkLIvmCA7316vGBDDpd</id></entity><entity type=\"vteam\" allFlag=\"false\"><id>AWkt1QINA7316vGBDFJo</id></entity><entity type=\"agentStatsQueues\" allFlag=\"false\"><id>AWmasVxgVgTI0e2f7fr4</id></entity><entity type=\"agentStatsTeams\" allFlag=\"false\"><id>AWkLIvmCA7316vGBDDpd</id></entity><entity type=\"speedDialList\" allFlag=\"false\"><id>AWlsBVLRUn8o38qfXri9</id></entity><entity type=\"speedDialPlan\" allFlag=\"false\"><id>AWmaZ8UXVgTI0e2f7fq3</id></entity><entity type=\"dnRestrictionPlan\" allFlag=\"false\"><id>AWmaZ8UXVgTI0e2f7fq3</id></entity></agent-profile>",
+    		"profileData__s": "{\"autoWrapUp\":true,\"autoWrapUpInterval\":10000,\"screenPopup\":true,\"agentAvailableAfterOutdial\":true,\"autoWrapUpExtensionAllowed\":true,\"consultToQueueAllowed\":true,\"agentStatsAllowed\":true,\"agentPersonalStatsEnabled\":true,\"agentThresholdEnabled\":true,\"agentStatsSignedOnTeam\":true,\"forceDefaultDn\":false,\"adhocDialingEnabled\":true,\"outdialEnabled\":true,\"passwordPolicyId\":null,\"outdialVirtualTeamId\":\"AWlsBDDKVgTI0e2f7efO\",\"outdialAniListId\":\"AWlsBfCxVgTI0e2f7efP\",\"accessToRecordings\":true,\"accessToSeatmap\":false,\"lastAgentRouting\":true,\"allWrapUpCodes\":false,\"wrapUpCodeIds\":[\"AWlsA0F_VgTI0e2f7efN\",\"AV4s1_0mHAt-bK94CcpV\"],\"allIdleCodes\":false,\"idleCodeIds\":[\"AV4s2V-PXI3EMNlP7oIm\",\"AWlsAttrVgTI0e2f7efM\",\"AV4s2V-hXI3EMNlP7oIn\",\"AV4s2V_tXI3EMNlP7oIp\",\"AV4s1_1vHAt-bK94CcpX\",\"AV4s2V_aXI3EMNlP7oIo\",\"AV4s1_1FHAt-bK94CcpW\"],\"allTeams\":false,\"teamIds\":[\"AWkLIvmCA7316vGBDDpd\"],\"allVirtualTeams\":false,\"virtualTeamIds\":[\"AWkt1QINA7316vGBDFJo\"],\"allAgentStatsQueues\":false,\"agentStatsQueueIds\":[\"AWmasVxgVgTI0e2f7fr4\"],\"allAgentStatsTeams\":false,\"agentStatsTeamIds\":[\"AWkLIvmCA7316vGBDDpd\"],\"allAddressBooks\":false,\"addressBookIds\":[\"AWlsBVLRUn8o38qfXri9\"],\"allDialPlans\":false,\"dialPlanIds\":[\"AWmaZ8UXVgTI0e2f7fq3\"],\"allDnRestrictionPlans\":false,\"dnRestrictionPlanIds\":[\"AWmaZ8UXVgTI0e2f7fq3\"],\"agentThrehsoldIds\":[\"AWmaoIAbVgTI0e2f7frk\"]}"	
+		}
+	},
+	"putSpecificPermissionsAgentProfile" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "updating the description of agent profile with auto wrapup and specific permissions",
+    		"profileText__s": "<agent-profile xmlns=\"http://agent.transerainc.com/profile\"><profile-attribute name=\"auto-wrapup\" value=\"true\"/><profile-attribute name=\"auto-wrapup-interval\" value=\"15000\"/><profile-attribute name=\"screenPopup\" value=\"true\"/><profile-attribute name=\"isAgentAvailableAfterOutdial\" value=\"true\"/><profile-attribute name=\"allowAutoWrapupExtension\" value=\"true\"/><profile-attribute name=\"allowConsultToQueue\" value=\"true\"/><profile-attribute name=\"allowAgentStats\" value=\"true\"/><profile-attribute name=\"agentPersonalStatsEnabled\" value=\"true\"/><profile-attribute name=\"agentThresholdEnabled\" value=\"true\"/><profile-attribute name=\"agentStatsSignedOnTeam\" value=\"true\"/><profile-attribute name=\"forceDefaultDn\" value=\"false\"/><profile-attribute name=\"adhocDialingEnabled\" value=\"true\"/><profile-attribute name=\"outdialEnabled\" value=\"true\"/><profile-attribute name=\"passwordPolicy\" value=\"0\"/><profile-attribute name=\"outdialVTeam\" value=\"AWma1BjtUn8o38qfXsD4\"/><profile-attribute name=\"outdialAniList\" value=\"AWma1vA6VgTI0e2f7fsV\"/><profile-attribute name=\"accessToRecordings\" value=\"true\"/><profile-attribute name=\"accessToSeatmap\" value=\"false\"/><profile-attribute name=\"lastAgentRouting\" value=\"true\"/><entity type=\"wrapupCode\" allFlag=\"false\"><id>AWma0hEuVgTI0e2f7fsS</id><id>AV4s1_0mHAt-bK94CcpV</id></entity><entity type=\"idleCode\" allFlag=\"false\"><id>AV4s2V-PXI3EMNlP7oIm</id><id>AWma0QpvVgTI0e2f7fsN</id><id>AV4s2V-hXI3EMNlP7oIn</id><id>AV4s2V_tXI3EMNlP7oIp</id><id>AV4s1_1vHAt-bK94CcpX</id><id>AV4s2V_aXI3EMNlP7oIo</id><id>AV4s1_1FHAt-bK94CcpW</id></entity><entity type=\"team\" allFlag=\"false\"><id>AWkLIvmCA7316vGBDDpd</id></entity><entity type=\"vteam\" allFlag=\"false\"><id>AWkt1qL9mbApJMCXqADW</id></entity><entity type=\"agentStatsQueues\" allFlag=\"false\"><id>AWma0yorVgTI0e2f7fsT</id></entity><entity type=\"agentStatsTeams\" allFlag=\"false\"><id>AWkLIvmCA7316vGBDDpd</id></entity><entity type=\"speedDialList\" allFlag=\"false\"><id>AWma1gBSUn8o38qfXsD6</id></entity><entity type=\"speedDialPlan\" allFlag=\"false\"><id>AWmaZ8UXVgTI0e2f7fq3</id></entity><entity type=\"dnRestrictionPlan\" allFlag=\"false\"><id>AWma1_QZUn8o38qfXsD9</id></entity></agent-profile>",
+    		"profileData__s": "{\"autoWrapUp\":true,\"autoWrapUpInterval\":15000,\"screenPopup\":true,\"agentAvailableAfterOutdial\":true,\"autoWrapUpExtensionAllowed\":true,\"consultToQueueAllowed\":true,\"agentStatsAllowed\":true,\"agentPersonalStatsEnabled\":true,\"agentThresholdEnabled\":true,\"agentStatsSignedOnTeam\":true,\"forceDefaultDn\":false,\"adhocDialingEnabled\":true,\"outdialEnabled\":true,\"passwordPolicyId\":null,\"outdialVirtualTeamId\":\"AWma1BjtUn8o38qfXsD4\",\"outdialAniListId\":\"AWma1vA6VgTI0e2f7fsV\",\"accessToRecordings\":true,\"accessToSeatmap\":false,\"lastAgentRouting\":true,\"allWrapUpCodes\":false,\"wrapUpCodeIds\":[\"AWma0hEuVgTI0e2f7fsS\",\"AV4s1_0mHAt-bK94CcpV\"],\"allIdleCodes\":false,\"idleCodeIds\":[\"AV4s2V-PXI3EMNlP7oIm\",\"AWma0QpvVgTI0e2f7fsN\",\"AV4s2V-hXI3EMNlP7oIn\",\"AV4s2V_tXI3EMNlP7oIp\",\"AV4s1_1vHAt-bK94CcpX\",\"AV4s2V_aXI3EMNlP7oIo\",\"AV4s1_1FHAt-bK94CcpW\"],\"allTeams\":false,\"teamIds\":[\"AWkLIvmCA7316vGBDDpd\"],\"allVirtualTeams\":false,\"virtualTeamIds\":[\"AWkt1qL9mbApJMCXqADW\"],\"allAgentStatsQueues\":false,\"agentStatsQueueIds\":[\"AWma0yorVgTI0e2f7fsT\"],\"allAgentStatsTeams\":false,\"agentStatsTeamIds\":[\"AWkLIvmCA7316vGBDDpd\"],\"allAddressBooks\":false,\"addressBookIds\":[\"AWma1gBSUn8o38qfXsD6\"],\"allDialPlans\":false,\"dialPlanIds\":[\"AWmaZ8UXVgTI0e2f7fq3\"],\"allDnRestrictionPlans\":false,\"dnRestrictionPlanIds\":[\"AWma1_QZUn8o38qfXsD9\"],\"agentThrehsoldIds\":[\"AWmaoIAbVgTI0e2f7frk\"]}"
+		}
+	},
+	"softDeleteSpecificPermissionsAgentProfile" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postUserProfileWithAllPermissions" : {
+		"attributes" : {
+			"allTeams__i": 1,
+    		"tenantId__s": "",
+    		"name__s": "UserProfAllPerm",
+    		"queues__sa": [],
+    		"status__i": 1,
+    		"allEntryPoints__i": 1,
+    		"modules__sa": [],
+    		"entryPoints__sa": [],
+    		"teams__sa": [],
+    		"allModules__i": 1,
+    		"allSites__i": 1,
+    		"permissions__s": "",
+    		"description__s": "Description of user profile with all module and access permissions",
+    		"sites__sa": [],
+    		"allQueues__i": 1
+		}
+	},
+	"putUserProfileWithAllPermissions" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "updated description of user profile with all module and access permissions"
+		}
+	},
+	"softDeleteUserProfileWithAllPermissions" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postUserProfileWithSpecificModuleSettings" : {
+		"attributes" : {
+			"allTeams__i": 1,
+    		"tenantId__s": "",
+    		"name__s": "UserProfWithSpecModule",
+    		"queues__sa": [],
+    		"status__i": 1,
+    		"allEntryPoints__i": 1,
+    		"analyzerAcl__s": "{\"editableFolders\":[],\"viewableFolders\":[],\"nonViewableFolders\":[]}",
+    		"modules__sa": [
+      			"AWuJew8OlFB-J3ZeZalz",
+      			"AWuSOKXxywugQABbM5Pp",
+      			"AWuSOS_Z_SsYS6Kxbpps",
+      			"AWuJew9lpyhRlaK1y62X",
+      			"AV4s185OHAt-bK94CciS"
+    			],
+    		"entryPoints__sa": [],
+    		"teams__sa": [],
+    		"allModules__i": 0,
+    		"allSites__i": 1,
+    		"permissions__s": "{\"AWuJew8OlFB-J3ZeZalz\":{\"permission\":\"2\",\"features\":[]},\"AWuSOKXxywugQABbM5Pp\":{\"permission\":\"2\",\"features\":[{\"name\":\"Analyzer Data Exchange\",\"permission\":\"1\"},{\"name\":\"Business Rules\",\"permission\":\"1\"}]},\"AWuSOS_Z_SsYS6Kxbpps\":{\"permission\":\"2\",\"features\":[{\"name\":\"Barge-In\",\"permission\":\"1\"},{\"name\":\"Mid-Call Monitor\",\"permission\":\"1\"},{\"name\":\"Whisper Coach\",\"permission\":\"1\"},{\"name\":\"Restricted Monitor Only\",\"permission\":\"1\"},{\"name\":\"View Blind Monitor Requests\",\"permission\":\"1\"}]},\"AV4s185jHAt-bK94CciT\":{\"permission\":\"0\",\"features\":[]},\"AV4s2TECXI3EMNlP7oBl\":{\"permission\":\"0\",\"features\":[]},\"AV4s2TC4XI3EMNlP7oBi\":{\"permission\":\"0\",\"features\":[{\"name\":\"Monitored Calls\",\"permission\":\"0\"},{\"name\":\"Threshold Alerts\",\"permission\":\"0\"},{\"name\":\"Usage Metrics Report\",\"permission\":\"0\"}]},\"AV4s2TFBXI3EMNlP7oBn\":{\"permission\":\"0\",\"features\":[{\"name\":\"MM Provisioning\",\"permission\":\"0\"},{\"name\":\"MM Agent Desktop\",\"permission\":\"0\"},{\"name\":\"MM Reports\",\"permission\":\"0\"}]},\"AWuJew9lpyhRlaK1y62X\":{\"permission\":\"2\",\"features\":[{\"name\":\"Manage Entry Points/Queues\",\"permission\":\"1\"},{\"name\":\"Manage Sites\",\"permission\":\"1\"},{\"name\":\"Manage Teams\",\"permission\":\"1\"},{\"name\":\"Manage Users\",\"permission\":\"1\"},{\"name\":\"Manage User Profiles\",\"permission\":\"1\"},{\"name\":\"Account Unlock\",\"permission\":\"0\"},{\"name\":\"Password Reset\",\"permission\":\"0\"},{\"name\":\"DN Mapping\",\"permission\":\"1\"},{\"name\":\"Manage Dial Plans\",\"permission\":\"1\"},{\"name\":\"Audit Trail\",\"permission\":\"1\"},{\"name\":\"Portal Branding\",\"permission\":\"1\"},{\"name\":\"Manage Tenants\",\"permission\":\"1\"},{\"name\":\"Revoke API Key\",\"permission\":\"1\"}]},\"AV4s1842HAt-bK94CciR\":{\"permission\":\"0\",\"features\":[{\"name\":\"Agent State Change\",\"permission\":\"0\"},{\"name\":\"Real-time Threshold Alerts\",\"permission\":\"0\"},{\"name\":\"Web Callback Report\",\"permission\":\"0\"},{\"name\":\"Map View\",\"permission\":\"0\"},{\"name\":\"Summary View\",\"permission\":\"0\"}]},\"AV4s1861HAt-bK94CciV\":{\"permission\":\"0\",\"features\":[{\"name\":\"Manage Recordings\",\"permission\":\"0\"},{\"name\":\"Status\",\"permission\":\"0\"},{\"name\":\"Tags\",\"permission\":\"0\"},{\"name\":\"CAD\",\"permission\":\"0\"},{\"name\":\"Custom Attributes\",\"permission\":\"0\"},{\"name\":\"Security Keys\",\"permission\":\"0\"}]},\"AV4s187JHAt-bK94CciW\":{\"permission\":\"0\",\"features\":[]},\"AV4s185OHAt-bK94CciS\":{\"permission\":\"2\",\"features\":[{\"name\":\"Manage Call Flow Scripts\",\"permission\":\"1\"},{\"name\":\"Manage Media Files\",\"permission\":\"1\"}]},\"AV4s2TEtXI3EMNlP7oBm\":{\"permission\":\"0\",\"features\":[]}}",
+    		"description__s": "description of user profile with specific module settings",
+    		"sites__sa": [],
+    		"allQueues__i": 1
+		}
+	},
+	"putUserProfileWithSpecificModuleSettings" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"permissions__s": "{\"AWuJew8OlFB-J3ZeZalz\":{\"permission\":\"2\",\"features\":[]},\"AWuSOKXxywugQABbM5Pp\":{\"permission\":\"2\",\"features\":[{\"name\":\"Analyzer Data Exchange\",\"permission\":\"1\"},{\"name\":\"Business Rules\",\"permission\":\"1\"}]},\"AWuSOS_Z_SsYS6Kxbpps\":{\"permission\":\"2\",\"features\":[{\"name\":\"Barge-In\",\"permission\":\"1\"},{\"name\":\"Mid-Call Monitor\",\"permission\":\"1\"},{\"name\":\"Whisper Coach\",\"permission\":\"1\"},{\"name\":\"Restricted Monitor Only\",\"permission\":\"0\"},{\"name\":\"View Blind Monitor Requests\",\"permission\":\"0\"}]},\"AV4s185jHAt-bK94CciT\":{\"permission\":\"0\",\"features\":[]},\"AV4s2TECXI3EMNlP7oBl\":{\"permission\":\"0\",\"features\":[]},\"AV4s2TC4XI3EMNlP7oBi\":{\"permission\":\"0\",\"features\":[{\"name\":\"Monitored Calls\",\"permission\":\"0\"},{\"name\":\"Threshold Alerts\",\"permission\":\"0\"},{\"name\":\"Usage Metrics Report\",\"permission\":\"0\"}]},\"AV4s2TFBXI3EMNlP7oBn\":{\"permission\":\"0\",\"features\":[{\"name\":\"MM Provisioning\",\"permission\":\"0\"},{\"name\":\"MM Agent Desktop\",\"permission\":\"0\"},{\"name\":\"MM Reports\",\"permission\":\"0\"}]},\"AWuJew9lpyhRlaK1y62X\":{\"permission\":\"2\",\"features\":[{\"name\":\"Manage Entry Points/Queues\",\"permission\":\"1\"},{\"name\":\"Manage Sites\",\"permission\":\"1\"},{\"name\":\"Manage Teams\",\"permission\":\"1\"},{\"name\":\"Manage Users\",\"permission\":\"1\"},{\"name\":\"Manage User Profiles\",\"permission\":\"1\"},{\"name\":\"Account Unlock\",\"permission\":\"0\"},{\"name\":\"Password Reset\",\"permission\":\"0\"},{\"name\":\"DN Mapping\",\"permission\":\"1\"},{\"name\":\"Manage Dial Plans\",\"permission\":\"0\"},{\"name\":\"Audit Trail\",\"permission\":\"0\"},{\"name\":\"Portal Branding\",\"permission\":\"0\"},{\"name\":\"Manage Tenants\",\"permission\":\"0\"},{\"name\":\"Revoke API Key\",\"permission\":\"0\"}]},\"AV4s1842HAt-bK94CciR\":{\"permission\":\"0\",\"features\":[{\"name\":\"Agent State Change\",\"permission\":\"0\"},{\"name\":\"Real-time Threshold Alerts\",\"permission\":\"0\"},{\"name\":\"Web Callback Report\",\"permission\":\"0\"},{\"name\":\"Map View\",\"permission\":\"0\"},{\"name\":\"Summary View\",\"permission\":\"0\"}]},\"AV4s1861HAt-bK94CciV\":{\"permission\":\"0\",\"features\":[{\"name\":\"Manage Recordings\",\"permission\":\"0\"},{\"name\":\"Status\",\"permission\":\"0\"},{\"name\":\"Tags\",\"permission\":\"0\"},{\"name\":\"CAD\",\"permission\":\"0\"},{\"name\":\"Custom Attributes\",\"permission\":\"0\"},{\"name\":\"Security Keys\",\"permission\":\"0\"}]},\"AV4s187JHAt-bK94CciW\":{\"permission\":\"0\",\"features\":[]},\"AV4s185OHAt-bK94CciS\":{\"permission\":\"2\",\"features\":[{\"name\":\"Manage Call Flow Scripts\",\"permission\":\"1\"},{\"name\":\"Manage Media Files\",\"permission\":\"1\"}]},\"AV4s2TEtXI3EMNlP7oBm\":{\"permission\":\"0\",\"features\":[]}}",
+			"description__s": "updating the description of user profile with specific module settings"
+		}
+	},
+	"softDeleteUserProfileWithSpecificModuleSettings" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	},
+	"postUserProfileWithSpecificAccessRights" : {
+		"attributes": {
+			"allTeams__i": 0,
+    		"name__s": "userProfSpecAccessRights",
+    		"queues__sa": [
+      			"AWuSOKXxywugQABbM5Pp"
+    		],
+    		"status__i": 1,
+    		"allEntryPoints__i": 0,
+    		"analyzerAcl__s": "{\"editableFolders\":[],\"viewableFolders\":[],\"nonViewableFolders\":[]}",
+    		"modules__sa": [],
+    		"entryPoints__sa": [
+      			"AWuJew8OlFB-J3ZeZalz",
+      			"AWuSNQABywugQABbM5Mi"
+    		],
+    		"teams__sa": [
+      			"AWuSPWsdpyhRlaK1zYk3"
+    		],
+    		"allModules__i": 1,
+    		"allSites__i": 0,
+    		"permissions__s": "",
+    		"description__s": "description of user profile with specific access rights",
+    		"sites__sa": [
+      			"AWuSoesV_SsYS6KxbrCK"
+    		],
+    		"allQueues__i": 0
+    	}
+	},
+	"putUserProfileWithSpecificAccessRights" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"description__s": "updating the description of user profile with specific access rights",
+			"queues__sa": [
+     			"AWuSOKXxywugQABbM5Pp",
+      			"AWuJew9QlFB-J3ZeZal0"
+    		],
+     		"entryPoints__sa": [
+      			"AWuJew8OlFB-J3ZeZalz",
+      			"AWuSNQABywugQABbM5Mi"
+    		],
+    		"teams__sa": [
+      			"AWuSPWsdpyhRlaK1zYk3",
+      			"AWuJew-YlFB-J3ZeZal4"
+    		]
+		}
+	},
+	"softDeleteUserProfileWithSpecificAccessRights" : {
+		"id": "idObtainedAfterPostOperation",
+		"attributes" : {
+			"status__i": 0
+		}
+	}
+}

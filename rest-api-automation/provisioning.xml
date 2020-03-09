@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="API Provisioning Test Execution"
+	allow-return-values="true">
+	<test name="API Provisioning Test Execution" >	
+
+
+		<classes>
+		
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestEpQueueGroup" />
+		 	<class name="com.cisco.cjbu.automation.tests.provisioning.TestSite" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestTeam" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestVirtualTeam" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestAuxCode" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestAgentProfile" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestAddressBook" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestBusinessMetric" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestCadVariable" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestDialPlan" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestMultimediaProfile" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestOutdialAni" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestSkillProfile" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestSkills" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestTfn" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestThresholdRules" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestUserProfile" />
+			<class name="com.cisco.cjbu.automation.tests.provisioning.TestWorkType" /> 	
+
+			<!-- <class name="com.cisco.cjbu.automation.tests.provisioning.TestUser"/> 
+				<class name="com.cisco.cjbu.automation.tests.provisioning.TestWorkType"/> 
+				<class name="com.cisco.cjbu.automation.tests.provisioning.TestWorkType"/> -->
+		</classes>
+		
+	</test>
+</suite>
