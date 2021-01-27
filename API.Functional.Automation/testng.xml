@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--<suite name="API Test Automation" parallel="tests" thread-count="1" preserve-order="true">  -->
+<suite name="API Test Automation">
+
+	<test name="Execution Suite" preserve-order="true">
+			<classes>
+				<class name="API_Testing.Functional.Automation.Users_Tenants_Rules" />
+			 	<class name="API_Testing.Functional.Automation.AuxiliaryDataController" />
+			 	<class name="API_Testing.Functional.Automation.Blob_ETL" />
+			</classes>
+	</test>
+
+</suite>
